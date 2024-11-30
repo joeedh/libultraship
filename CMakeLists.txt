@@ -17,7 +17,6 @@ if (CMAKE_SYSTEM_NAME STREQUAL "Darwin" OR CMAKE_SYSTEM_NAME STREQUAL "iOS")
 endif()
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
-	set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 endif()
 
 include(cmake/Utils.cmake)
